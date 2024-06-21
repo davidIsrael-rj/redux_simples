@@ -1,6 +1,6 @@
 @font-face  {
   font-family: 'MinhaFonte';
-  src: local('MinhaFonte'),url(../public/Oswald/static/Oswald-ExtraLight.ttf),format('truetype');
+  src: local('MinhaFonte'),url(./fonts/Oswald/static/Oswald-ExtraLight.ttf),format('truetype');
 }
 
 body{
