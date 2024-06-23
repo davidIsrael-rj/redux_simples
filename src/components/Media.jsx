@@ -2,12 +2,17 @@ import React from "react"
 import Card from "./Card"
 
 export default props => {
+    // const min = props.min
+    // const max = props.max
+
+    const {min, max} = props
+    
     return (
         <Card title="Média de Números" green>
             <div className="Intervalo">
                 <span>
                     <span>Resultado:</span>
-                    <strong>5</strong>
+                    <strong>{(max + min)/2}</strong>
                 </span>
             </div>
         </Card>
