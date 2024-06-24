@@ -1,8 +1,9 @@
 import React from "react"
+
 import Card from "./Card"
 
-export default props => {
- 
+function Soma(props) {    
+
     return (
         <Card title="Soma de Números" blue>
             <div className="Intervalo">
@@ -14,3 +15,6 @@ export default props => {
         </Card>
     )
 }
+
+
+export default Soma
